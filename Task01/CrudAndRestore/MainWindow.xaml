@@ -6,7 +6,21 @@
         xmlns:local="clr-namespace:CrudAndRestore"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="17*"/>
+			<ColumnDefinition Width="183*"/>
+		</Grid.ColumnDefinitions>
+		<Label Content="WELCOME TO B2A" FontSize="30" Margin="191,10,268,368"  Foreground="#FFAA0DAE" Grid.Column="1"/>
+		<ListBox Margin="32,200,0,0" Name="listbox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="288" Height="208" Grid.ColumnSpan="2"></ListBox>
+		<TextBox  Text="Name" Height="50" HorizontalAlignment="Left" Margin="32,66,0,0" Name="textBox1" VerticalAlignment="Top" Width="344" Grid.ColumnSpan="2" TextChanged="textBox1_TextChanged_1"    />
+		<Button Height="24" Margin="32,154,0,0" Name="button1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="91" Click="Button1_Click" Grid.ColumnSpan="2">Add Item</Button>
+		<Button Height="24" Margin="161,154,0,0" Name="button2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="91" Click="Button2_Click" Grid.Column="1">delete</Button>
+		<Button Height="24" Margin="420,154,0,0" Name="button3" VerticalAlignment="Top" HorizontalAlignment="Left" Width="91"  Click="Button3_Click" Grid.Column="1">Restore</Button>
+		<Button Height="24" Margin="616,154,0,0" Name="button4" VerticalAlignment="Top" HorizontalAlignment="Left" Width="92"  Click="Button4_Click" Grid.Column="1">Flush</Button>
+		<ListBox Margin="420,200,0,0" Name="listbox2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="288" Height="208" Grid.Column="1"></ListBox>
 
-    </Grid>
+
+
+	</Grid>
 </Window>
