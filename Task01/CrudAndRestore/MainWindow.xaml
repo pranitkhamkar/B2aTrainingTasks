@@ -11,14 +11,14 @@
 			<ColumnDefinition Width="17*"/>
 			<ColumnDefinition Width="183*"/>
 		</Grid.ColumnDefinitions>
-		<Label Content="WELCOME TO B2A" FontSize="30" Margin="191,10,268,368"  Foreground="#FFAA0DAE" Grid.Column="1"/>
-		<ListBox Margin="32,200,0,0" Name="listbox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="288" Height="208" Grid.ColumnSpan="2"></ListBox>
-		<TextBox  Text="Name" Height="50" HorizontalAlignment="Left" Margin="32,66,0,0" Name="textBox1" VerticalAlignment="Top" Width="344" Grid.ColumnSpan="2" TextChanged="textBox1_TextChanged_1"    />
-		<Button Height="24" Margin="32,154,0,0" Name="button1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="91" Click="Button1_Click" Grid.ColumnSpan="2">Add Item</Button>
-		<Button Height="24" Margin="161,154,0,0" Name="button2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="91" Click="Button2_Click" Grid.Column="1">delete</Button>
-		<Button Height="24" Margin="420,154,0,0" Name="button3" VerticalAlignment="Top" HorizontalAlignment="Left" Width="91"  Click="Button3_Click" Grid.Column="1">Restore</Button>
-		<Button Height="24" Margin="616,154,0,0" Name="button4" VerticalAlignment="Top" HorizontalAlignment="Left" Width="92"  Click="Button4_Click" Grid.Column="1">Flush</Button>
-		<ListBox Margin="420,200,0,0" Name="listbox2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="288" Height="208" Grid.Column="1"></ListBox>
+		<Label Content="WELCOME TO B2A" FontSize="35"  Margin="206,10,221,373" Foreground="#FFC64E53" Grid.Column="1" Background="#FF22E8DA"/>
+		<ListBox Margin="32,200,0,0" Name="listbox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="288" Height="208" Grid.ColumnSpan="2" Background="#FFBBDFEE"></ListBox>
+		<TextBox  Text="Name" Height="50" HorizontalAlignment="Left" Margin="32,84,0,0" Name="textBox1" VerticalAlignment="Top" Width="344" Grid.ColumnSpan="2" TextChanged="textBox1_TextChanged_1" Background="#FFD7D323"    />
+		<Button Height="24" Margin="32,154,0,0" Name="button1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="91" Click="Button1_Click" Grid.ColumnSpan="2" Background="#FF28BA46">Add Item</Button>
+		<Button Height="24" Margin="161,154,0,0" Name="button2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="91" Click="Button2_Click" Grid.Column="1" Background="#FF28BA46">delete</Button>
+		<Button Height="24" Margin="420,154,0,0" Name="button3" VerticalAlignment="Top" HorizontalAlignment="Left" Width="91"  Click="Button3_Click" Grid.Column="1" Background="#FF28BA46">Restore</Button>
+		<Button Height="24" Margin="616,154,0,0" Name="button4" VerticalAlignment="Top" HorizontalAlignment="Left" Width="92"  Click="Button4_Click" Grid.Column="1" Background="#FF28BA46">Flush</Button>
+		<ListBox Margin="420,200,0,0" Name="listbox2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="288" Height="208" Grid.Column="1" Background="#FFBBDFEE"></ListBox>
 
 
 
